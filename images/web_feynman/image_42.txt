@@ -1,0 +1,24 @@
+user_glyphs.push("G_F");
+el = new arc_element(140,360,360,140);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(140,140,360,360);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_nuM",100,140);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",100,370);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_nuE",380,360);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonMinus",380,140);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",280,260);characters.push(symbol);

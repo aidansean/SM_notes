@@ -1,0 +1,74 @@
+user_glyphs.push("e^-(p_1)");
+user_glyphs.push("e^+(p_2)");
+user_glyphs.push("f(p_3)");
+user_glyphs.push("\bar{f}(p_4)");
+user_glyphs.push("\frac{g_W}{\cos\theta_W}");
+el = new arc_element(100,100,200,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(200,200,100,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,300,400,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(400,200,500,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(200,200,400,200);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(330,260,390,220);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "hollow";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(270,260,210,220);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "hollow";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_0",20,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",20,310);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",520,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_3",520,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_Z",290,190);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_4",270,290);characters.push(symbol);

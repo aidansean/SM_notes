@@ -1,0 +1,67 @@
+el = new arc_element(100,100,300,160);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,160,500,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,240,300,360);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_circle();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,160,300,240);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,360,300,440);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(100,500,300,440);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,440,500,500);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",70,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",510,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonMinus",70,510);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonMinus",510,510);characters.push(symbol);

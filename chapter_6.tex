@@ -1,0 +1,113 @@
+\chapter{Calculating amplitudes}
+
+\section{Possible approaches}
+
+\begin{itemize}
+  \item Make the Born approximation relativistic, which is the Feynmann-Stueckelberg approach.  This is not so easy to make systematic and is rather ad hoc.  This method motivates the propagator.
+  \item Make non-relativistic perturbation theory relativistic, as in Halzen and Martin.  This is not systematic and does not motivate the propagator.
+  \item Canonical field theory enables a more systematic approach, but it takes more time.
+  \item The path integral approach is systematic but mathematically more challenging.
+\end{itemize}
+
+\section{Propagator approach}
+
+The basic idea behind the propagator approach is to know the quantum wave (which is called $\psi(\ul{r}',t')$) given the wavefunction at initial coordinates $\psi(\ul{r},t)$.
+
+\[
+  \psi(\ul{r}',t') = i\int G(\ul{r}',t,\ul{r},t)\psi(\ul{r},t)\mathrm{d}^3r \textrm{ for } t' > t
+\]
+
+where $G$ is a Green's function.
+
+The wave at $\ul{r}$ has been propagated by $G$ to $\ul{r}'$.  Consdier the scattering process.  An incident particle described by the plane quantum wave $\phi(\ul{r},t)$ is incident on a potential $V(\ul{r},t)$.  Schroedinger's equation should describe what happens.  Recall:
+
+\begin{eqnarray*}
+  \left(H_0 + V\right)\psi & = & i\frac{\partial \psi}{\partial t} \\
+  i\partial\psi(\ul{r},t) - H_0\psi(\ul{r},t)\mathrm{d}t & = & V(\ul{r},t)\psi(\ul{r},t)\mathrm{d}t
+\end{eqnarray*}
+
+Suppose the potential acts at $\ul{r}_1$ and $t_1$ for a short time interval $\Delta t_1$:
+
+\begin{eqnarray*}
+  \Rightarrow i\int\partial\psi(\ul{r}_1,t_1) - \int_{t_1}^{t_1+\Delta t_1}H_0\psi(\ul{r},t_1)\mathrm{d}t_1 & = & \int_{t_1}^{t_1+\Delta t_1} V(\ul{r}_1,t_1)\psi(\ul{r}_1,t_1)\mathrm{d}t_1 \\
+  \Delta\psi(\ul{r}_1,t_1) & = & -iV(\ul{r}_1,t_1)\psi(\ul{r}_1,t_1)\Delta t_1
+\end{eqnarray*}
+
+where $H_0$ does not contribute significantly.
+
+\begin{eqnarray*}
+  \Delta \psi(\ul{r}_1,t_1) & \sim & -iV(\ul{r}_1,t_1)\phi(\ul{r}_1,t_1)\Delta t_1 \\
+  \textrm{where } \psi(\ul{r}_1,t_1) & = & \phi(\ul{r}_1,t_1) + \Delta \psi(\ul{r}_1,t_1) \\
+  \Delta\psi(\ul{r}',t') & = & i \int \mathrm{d}^3r_1 G_0(\ul{r}',t';\ul{r}_1,t_1)\Delta\psi(\ul{r}_1,t_1) \\
+  & = & i\int\mathrm{d}^3r_1 G_0(\ul{r}',t';\ul{r}_1,t_1)(-i)V(\ul{r}_1,t_1)\phi(\ul{r}_1,t_1)\Delta t_1 \\
+  \textrm{ie } \psi(\ul{r}',t') & = & \phi(\ul{r}',t') + \int\mathrm{d}^3r_1 G_0(\ul{r}',t';\ul{r}_1,t_1)V(\ul{r}_1,t_1)\phi(\ul{r}_1,t_1)\Delta t_1 \\
+  \psi(\ul{r}',t') & = & \phi(\ul{r}',t') + \int \mathrm{d}^4x_1 G_0(x';1)V(1)\phi(1) \\
+  \textrm{where }V(1) & = & V(\ul{r}_1,t_1) \textrm{ etc and } x' \textrm{ is now a 4 vector.}
+\end{eqnarray*}
+
+Now applying a potential at $(\ul{r}_2,t_2)$ for $\Delta t_2$ generates the wavefunction:
+
+\begin{eqnarray*}
+  \psi(\ul{r}',t') & = & \phi(\ul{r}',t) + \int \mathrm{d}^3r_1G_0(x';1)V(1)\phi(1)\Delta t_1 \\
+                          &   & + \int \mathrm{d}^3r_2 G_0(x';2)V(2)\phi(2)\Delta t_2 \\
+                          &   & + \int\int \mathrm{d}^3r_1 \mathrm{d}^3r_2 G_0(x';2)V(2)G_0(2;1)V(1)\phi(1)\Delta t_1 \Delta t_2
+\end{eqnarray*}
+
+Integrating over $\Delta t_1$, $\Delta t_2$ gives:
+
+\[
+  \psi(\ul{r}',t') = \phi(\ul{r}',t') + \int\mathrm{d}^4x_1 G_0(x';1)V(1)\phi(1) + \int\int\mathrm{d}^4x_1 \mathrm{d}^4x_2 G_0(x';2)V(2)G_0(2;1)V(1)\phi(1)
+\]
+
+Now it is necessary to evaluate $G_0$.  In particular $G_0(2;1)$ ie the $G_0$ for the intermediate states:
+
+\[
+  \psi(\ul{r}',t') = i\int_{t'>t} \mathrm{d}^3r G(x';x)\psi(\ul{r},t)
+\]
+
+This can be written in a form valid for all times (using the Heaviside step function centred at $\tau = t'$):
+
+\begin{eqnarray*}
+  \theta(t'-t)\psi(x') & = & i\int \mathrm{d}^3r G(x';x)\psi(x) \\
+  \theta(t'-t) = \Bigg\{
+    \begin{array}{cc}
+    1 & t'>t \\
+    0 & \textrm{otherwise}
+    \end{array}
+\end{eqnarray*}
+
+Applying the Schroedinger equation to both sides:
+
+\begin{eqnarray*}
+  LHS & : & \Bigg[ i\frac{\partial}{\partial t} - H(x')\Bigg] \theta(t'-t)\psi(x') \\
+  & = & i\delta(t'-t)\psi(x') + \theta(t'-t)i\frac{\delta}{\delta t}\psi(x') -H(x')\theta(t'-t)\psi(x') \\
+  & = & i\delta(t'-t)\psi(x') \\
+  RHS & : & i\int\mathrm{d}^3r\Bigg[ i\frac{\partial}{\partial t'} - H(x')\Bigg] G(x';x)\psi(x)
+\end{eqnarray*}
+
+Consider a particle in the absence of a potential ie $V = 0$, then solve explicitly for the free particle propagator.
+
+\[
+  RHS : i\int\mathrm{d}^3r\Bigg[ E - \frac{p^2}{2m}\Bigg] G_0(x';x)\psi(x)
+\]
+
+Transforming to four-momentum space via a Fourier transform:
+
+\begin{eqnarray*}
+  RHS & : & i\int\frac{\mathrm{d}^3p}{(2 \pi)^3}\frac{\mathrm{d}E}{2\pi}\left(E - \frac{p^2}{2m}\right)G_0(E;\ul{p}) \e^{i\ul{p}(\ul{r'}-\ul{x})}\e^{-iE(t'-t)}\psi(x) \\
+  LHS & : & i\delta(t'-t)\psi(x') \\
+      & = & i\delta(t'-t)\int\mathrm{d}^3r\psi(x)\delta^3(\ul{r}' - \ul{r}) \\
+      & = & i\delta^4(x'-x)\psi(x) \\
+  LHS & = & RHS \textrm{ so:} \\
+  i\delta^4(x'-x)\psi(x) & = & i\int\frac{\mathrm{d}^3p}{(2\pi)^3}\frac{\mathrm{d}E}{2\pi}\left(E - \frac{p^2}{2m}\right)G_0(E;p)\e^{ip(x'-x)}\e^{-E(t'-t)}\psi(x) \\
+  \Rightarrow \delta^4(x'-x)\psi(x) & = & \int\frac{\mathrm{d}^4p}{(2\pi)^4}\e^{ip(x'-x)}\e^{-iE(t'-t)}\psi(x) \\
+  \textrm{where } G_0 & = & \frac{1}{E - \frac{p^2}{2m}} \textrm{ for } E \neq \frac{p^2}{2m}
+\end{eqnarray*}
+
+As $E = p^2/2m$ the value of $G_0$ becomes undefined.  The simple model cannot account for the singularity, so a new term in introduced:
+
+\[
+  G_0 \to G_0 = \frac{1}{E - \frac{p^2}{2m} + i\epsilon}
+\]
+
+The free particle propagator for  real or virtual particle in momentum space is the inverse of the free particle Schroedinger equation.  Assume that in momentum space the free propagators of the Klein-Gordon equation, Dirac equation and Proca equation are all obtained by inverting the appropriate equation.

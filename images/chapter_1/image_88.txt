@@ -1,0 +1,104 @@
+user_glyphs.push("dark\,matter\,halo");
+user_glyphs.push("galactic\,centre");
+user_glyphs.push("visible\,matter");
+el = new arc_element(160,280,220,280);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,320,160,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(160,280,160,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(130,300);
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,280,380,280);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(310,230);
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,320,380,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(310,370);
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,280,440,280);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,320,440,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(440,280,440,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(470,300);
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(100,300,500,300);
+el.type = "dashed";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_circle();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,540,300,430);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "hollow";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,190,300,290);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "hollow";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_0",260,570);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",250,180);characters.push(symbol);

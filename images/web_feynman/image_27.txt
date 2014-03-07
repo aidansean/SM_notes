@@ -1,0 +1,51 @@
+user_glyphs.push("\theta");
+el = new arc_element(100,200,290,200);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(320,190,500,100);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(280,210,100,300);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,200,310,200);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,160,380,200);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "line";
+el.has_arrowhead = false;
+el.set_altitude(390,180);
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",70,210);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronPlus",510,210);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonPlus",520,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonMinus",60,310);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",410,180);characters.push(symbol);

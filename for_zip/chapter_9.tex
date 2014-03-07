@@ -1,0 +1,360 @@
+% Copyright Aidan Randle-Conde 2007-2014
+% http://www.aidansean.com/phd_notes
+% Anyone is free to download, redistribute, edit and use these notes and the source tex files with the following restrictions:
+% This 
+%  This message is included in the tex source files.
+%  Aidan Randle-Conde is credited as the author.
+%  Images are correctly credited to their respective authors, as outlined in the references.
+%  No part of these notes may be used for commercial purposes.
+
+\chapter{Massless spin\texorpdfstring{$-1$}{1} particles (photons)}
+\chaptermark{Massless spin\texorpdfstring{$-1$}{-1} particles}
+
+\section{Maxwell's equations and the definition of classical potentials}
+
+\[
+  \begin{array}{ccccc}
+  I   & \quad & \Div{E}  & = & \rho \\
+  II  &       & \Div{B}  & = & 0 \\
+  III &       & \Curl{E} & = & -\ul{\dot{B}} \\
+  IV  &       & \Curl{B} & = & \ul{J} + \ul{\dot{E}}
+  \end{array}
+\]
+
+The potentials are defined as:
+
+\begin{eqnarray*}
+  \ul{B} & = & \Curl{A} \\
+  \Curl{E} & = & -\frac{\partial \Curl{A}}{\partial t} \\
+  & = & -\ul{\nabla}\times{\left(\frac{\partial \ul{A}}{\partial t}\right)} \\
+  \textrm{So } \ul{\nabla}\times{\left(\ul{E} + \frac{\partial\ul{A}}{\partial t}\right)} & = & \ul{0}
+\end{eqnarray*}
+
+The solution is:
+
+\[
+  \ul{E} + \frac{\partial \ul{A}}{\partial t} = -\Grad{\phi}
+\]
+
+as the gradient of a scalar function has zero curl everywhere.
+
+$I$ and $IV$ give:
+
+\begin{eqnarray}
+  \Div{E} & = & \rho \nonumber \\
+  \ul{E}  & = & -\Grad{\phi} - \frac{\partial \ul{A}}{\partial t} \nonumber \\
+  \Rightarrow -\nabla^2\phi - \frac{\partial}{\partial t}\left(\Div{A}\right) & = & \rho \nonumber \\
+  \textrm{So } \nabla^2\phi - \frac{\partial^2\phi}{\partial t^2} + \frac{\partial^2\phi}{\partial t^2} + \frac{\partial}{\partial t}\Div{A} & = & \rho \label{eq:maxwell1} \\
+  \Curl{B} & = & \ul{J} + \frac{\partial \ul{E}}{\partial t} \nonumber \\
+  \ul{\nabla}\times\Curl{A} & = & \ul{J} + \frac{\partial \ul{E}}{\partial t} \nonumber \\
+  & = & \ul{J} + \frac{\partial}{\partial t}\left(-\Grad{\phi} - \frac{\partial \ul{A}}{\partial t}\right) \nonumber \\
+  & = & \ul{J} - \Grad{\frac{\partial\phi}{\partial t}} - \frac{\partial^2\ul{A}}{\partial t^2} \nonumber \\
+  \textrm{or } \Grad{\left(\Div{A}\right)} - \nabla^2\ul{A} & = & \ul{J} - \Grad{\frac{\partial \phi}{\partial t}} - \frac{\partial^2 \ul{A}}{\partial t^2} \nonumber \\
+  \Rightarrow \nabla^2\ul{A} - \frac{\partial^2\ul{A}}{\partial t^2} - \Grad{\left(\Div{A}\right)} - \frac{\partial}{\partial t}\Grad{\phi} & = & \ul{J} \label{eq:maxwell2} \\
+\end{eqnarray}
+
+Equations (\ref{eq:maxwell1}) and (\ref{eq:maxwell2}) can be written as:
+
+\begin{eqnarray*}
+  \Box^2A^{\mu} - \partial^{\mu}\partial_{\nu}A^{\nu} & = & J^{\mu} \\
+  \textrm{where } \Box^2 & = & \left(\frac{\partial^2}{\partial t^2},-\nabla^2\right) \\
+  A^{\mu} & = & \left(\phi,\ul{A}\right) \\
+  J^{\mu} & = & \left(\rho,\ul{J}\right)
+\end{eqnarray*}
+
+Therefore the electromagnetic field is given by the four-potential $A^{\mu}$ which satisfies the above equation.  For a free electromagnetic field $\left(\rho,\ul{J}\right) = 0$.
+
+Consider the polarisation states for a free photon.  Since there is a four-potential there appears to be four polarisation states.  These states reduce to the well known two polarisations states of the free photon.  The four states for a photon travelling in the $z-$direction are:
+
+\begin{eqnarray*}
+  |1,0,0,0\rangle & \quad & \textrm{time-like polarisation} \\
+  |0,1,0,0\rangle & \quad & \textrm{polarisation in the $x$ direction} \\
+  |0,0,1,0\rangle & \quad & \textrm{polarisation in the $y$ direction} \\
+  |0,0,0,1\rangle & \quad & \textrm{polarisation in the $z$ direction} \\
+\end{eqnarray*}
+
+For virtual photons all four polarisation states exist, whereas for real photons only tranverse polarisation states exist.
+
+Applying the Lorentz condition:
+
+\begin{eqnarray*}
+  \partial_{\mu}A^{\mu} & = & 0 \\
+  \Box^2A^{\mu} & = & J^{\mu}
+\end{eqnarray*}
+
+This makes the time-like component depend on the spatial components so that the time-like component is no longer independent.  For free photons $J^{\mu} = 0^{\mu}$, so $\Box^2A^{\mu} = 0^{\mu}$ and the solutions are plane waves:
+
+\[
+  A^{\mu} = \epsilon_i^{\mu}\e^{-iqx}
+\]
+
+where $\epsilon_i$ are the four polarisation states.
+
+The Lorentz condition gives:
+
+\begin{eqnarray*}
+  \partial_{\mu}A^{\mu} & = & \partial_{\mu}\epsilon_i^{\mu}\e^{q_{\mu}x^{\mu}} \\
+  & = & 0 \\
+  \Rightarrow -iq_{\mu}\epsilon_i^{\mu}\e^{-q_{\mu}x^{\mu}} & = & 0
+\end{eqnarray*}
+
+So the Lorentz condition reduces to:
+
+\begin{eqnarray*}
+  q_{\mu}\epsilon_i^{\mu} & = & 0 \\
+  \Rightarrow q_0\epsilon_i^0 & = & q_k\epsilon_i^k
+\end{eqnarray*}
+
+So the time-like component is dependent on the space-like components.  To reduce to two polarisation vector a gauge transformation is applied.  Recall that $\ul{E}$ and $\ul{B}$ in classic electromagnetism come from the field tensor:
+
+\[
+  F^{\mu\nu} = \partial^{\mu}A^{\nu} - \partial^{\nu}A^{\mu}
+\]
+
+$F^{\mu\nu}$ is unchanged and this $\ul{E}$ and $\ul{B}$ are unchanged under the gauge transformation:
+
+\[
+  A'^{\mu} \to A^{\mu} + \partial^{\mu}\Lambda
+\]
+
+where $\Lambda$ is a scalar field.  $\Lambda$ satisfies the Lorentz condition.
+
+\begin{eqnarray*}
+  \textrm{Let } \Lambda & = & ia\e^{-iq_{\mu}x^{\mu}} \\
+  \partial_{\mu}\partial^{\mu}\Lambda & = & \left(-iq_{\mu}\right)\left(-iq^{\mu}\right)ia\e^{-iq_{\mu}x^{\mu}} \\
+  & = & -iaq^2\e^{-iqx}
+\end{eqnarray*}
+
+But $q^2 = E^2 - p^2$ and is equal to zero for a real photon, so $\partial^{\mu}_{\mu} = 0$ and the Lorentz condition is satisfied.  Substituting $\Lambda$ and $A^{\mu} = \epsilon^{\mu}\e^{iq_{\mu}x^{\mu}}$ into the gauge tranformation gives:
+
+\begin{eqnarray*}
+  A'^{\mu} & \to & \epsilon^{\mu}\e^{-iqx} + \left(-iq^{\mu}\right)ia\e^{-iqx} \\
+  & = & \epsilon^{\mu}\e^{-iqx} + aq^{\mu}\e^{-iqx}
+\end{eqnarray*}
+
+So the gauge transformation simplifies to:
+
+\[
+  \epsilon'^{\mu} \to \epsilon^{\mu} + aq^{\mu}
+\]
+
+So two polarisation vectors $\epsilon$ and $\epsilon'^{\mu}$ which differ by a multiple of $q^{\mu}$, describe the same photon.  This means the time component must be zero.  $\epsilon_0 = 0$.
+
+So the Lorentz condition reduces to $\ul{\epsilon}\cdot\ul{q} = 0$.  From this only two independent polarisation vectors can exist and they must be perpendicular to $\ul{q}$.  So the states are:
+
+\begin{eqnarray*}
+  \ul{\epsilon}_1 & = & \left(1,0,0\right) \\
+  \ul{\epsilon}_2 & = & \left(0,1,0\right)
+\end{eqnarray*}
+
+They can also be expressed as circular polarisation:
+
+\begin{eqnarray*}
+  \ul{\epsilon}_R & = & \frac{1}{\sqrt{2}}\left(\ul{\epsilon}_1 + i\ul{\epsilon}_2\right) \\
+  \ul{\epsilon}_L & = & \frac{1}{\sqrt{2}}\left(\ul{\epsilon}_1 - i\ul{\epsilon}_2\right)
+\end{eqnarray*}
+
+\subsection{Virtual photons and the photon propagator}
+
+For virtual photons, by imposing the Lorentz condition:
+
+\begin{eqnarray*}
+  \Box^2A^{\mu} & = & J^{\mu} \\
+  & = & g^{\mu\nu}J_{\nu} \\
+  \textrm{By inspection: } A^{\mu} & = & -\frac{g^{\mu\nu}}{q^2}J_{\nu}
+\end{eqnarray*}
+
+The solution can be derived by the propagator approach:
+
+\begin{equation}
+  A^{\mu}(x') = \int G(x';x)j^{\mu}(x)\mathrm{d}^4x \label{eq:propagator}
+\end{equation}
+
+From the Lorentz condition:
+
+\begin{eqnarray*}
+  \Box^2A^{\mu}(x') & = & j^{\mu}(x') \\
+  & = & \int\mathrm{d}^4x \delta^4(x'-x)j^{\mu}(x) \\
+  \textrm{Also from (\ref{eq:propagator}):} \Box^2A^{\mu}(x') & = & \int\Box^2G(x',x)j^{\mu}(x)\mathrm{d}^4x
+\end{eqnarray*}
+
+Comparing the expressions for $\Box^2A^{\mu}(x')$:
+
+\[
+  \Box^2G(x',x) = \delta^4(x' - x)
+\]
+
+Translating into four-momentum space via a Fourier transform:
+
+\begin{eqnarray*}
+  \frac{1}{\left(2\pi\right)^4} \int\mathrm{d}^4q\left(-iq\right)^2G(q)\e^{-iq\left(x - x'\right)} & = & \frac{1}{\left(2\pi\right)^4}\int\mathrm{d}^4q \e^{-iq\left(x' - x\right)} \\
+  \Rightarrow G(q) & = & -\frac{1}{q^2} \\
+  \textrm{So } A^{\mu}(x) & = & -\frac{j^{\mu}(x)}{q^2} \\
+  & = & -\frac{-g^{\mu\nu}j_{\nu}(x)}{q^2}
+\end{eqnarray*}
+
+When considering the propagator approach theory it is found that the propagator in four-momentum space is the inverse of the equation describing the free propagation of virtual particles.  In four-momentum space the propagator for a Klein-Gordon particle is obtained by inverting the Klein-Gordon equation, multiplied by $i$.
+
+\[
+  i\left(\Box^2 + m^2\right)\phi = -iV\phi
+\]
+
+So the Klein-Gordon propagator is:
+
+\begin{eqnarray*}
+  \frac{1}{i\left(\Box^2 + m^2\right)} & = & \frac{-i}{\Box^2 + m^2} \\
+  \Box^2 & = & \partial_{\mu}\partial^{\mu} \\
+  & = & \frac{i\partial_{\mu}i\partial^{\mu}}{i^2} \\
+  & = & -p^{\mu}p_{\mu} \\
+  & = & -p^2
+\end{eqnarray*}
+
+So the propagator is $\displaystyle\frac{i}{p^2 - m^2}$.
+
+Consider the Dirac equation:
+
+\[
+  \Big[\left(\alpha p + \beta m\right) + \e\left(\alpha A - A^0I\right)\Big] \psi = E\psi
+\]
+
+where the Dirac potential is $\alpha A - A^0I$.
+
+Converting this equation to convariant form by premultiplying by $\beta$ gives:
+
+\[
+  \Big[\beta\alpha p + \beta^2m + \e\left(\beta\alpha A - \beta A^0I\right)\Big]\psi = \beta E\psi
+\]
+
+Rearranging:
+
+\begin{eqnarray*}
+  \left(\beta E - \beta \alpha p - \beta^2 m\right)\psi & = & \e\left( \beta\alpha A - \beta A^0\right)\psi \\
+  \left(\gamma^0 E - \gamma^kp_k -Im\right)\psi & = & -\e\left(\beta A^0 - \beta\alpha A\right)\psi \\
+  \left(\not{p} - m \right)\psi & = & -\e\not{A}\psi \\
+  \Rightarrow -i\left(\not{p} - m\right)\psi & = & i\e\not{A}\psi \\
+  & = & -iV\psi
+\end{eqnarray*}
+
+So the propagator is:
+
+\begin{eqnarray*}
+  \frac{1}{-i\left(\not{p} - m\right)} & = & \frac{i\left(\not{p} + m\right)}{\left(\not{p}-m\right)\left(\not{p} + m\right)} \\
+  & = & \frac{i\left(\not{p} + m\right)}{\not{p}^2 - m^2} \\
+  & = & \frac{i\left(\not{p} + m\right)}{p^2 - m^2} \\
+  & = & \frac{i\sum_{spins}u\bar{u}}{p^2 - m^2} \textrm{via the completeness relation}
+\end{eqnarray*}
+
+This is the general form of the propagator of a virtual particle where the sum is over eg all spin states of the electron or polarisation states of the photon.
+
+\subsection{Real and virtual photons and the significance of longitudinal and time-like polarisations}
+
+Consdier a typical process involving photon exchange ie the photon is sandwiched between two currents:
+
+\begin{eqnarray*}
+  j^A_{\mu}(x)\left(\frac{-g^{\mu\nu}}{q^2}\right)j^B_{\nu}(x) & = & -j^A_{\mu}(x)\frac{1}{q^2}j^{B\mu}(x) \\
+  & = & \frac{1}{q^2}\Big[j^A_1(x)j^{1B}(x) + j^A_2(x)j^{2B}(x) + j^A_3(x)j^{3B}(x) - j^A_0(x)j^{0B}(x) \Big]
+\end{eqnarray*}
+
+However, electromagnetic current is conserved:
+
+\[
+  \partial_{\mu}j^{\mu} = 0 \Rightarrow q_{\mu}j^{\mu} = 0
+\]
+
+\paragraph*{Proof} Consider $j^{\mu} = \bar{u}_f\e^{ip_fx}\gamma^{\mu}u_i\e^{-ip_ix}$.  Then if $q$ is the momentum of the exchanged photon and $q = p_f - p_i$ then:
+
+\[
+  \partial_{\mu}j^{\mu} \propto i\left(p_f - p_i\right)
+\]
+
+Therefore if $\partial_{\mu}j^{\mu} = 0$ then $q_{\mu}j^{\mu} = 0$.
+
+Since $q$ can be taken to be parallel to the $x^3$ axis without loss of generality:
+
+\[
+  q_3j^1 = q_3j^2 = 0
+\]
+
+Applying the condition $q_{\mu}j^{\mu} = 0$ to the longitudinal and time-like components:
+
+\begin{eqnarray*}
+  q_{\mu}j^{\mu} & = & q_0j^0 - q_3j^3 \\
+  \Rightarrow j^3 & =& \frac{q_0j^0}{q_3}
+\end{eqnarray*}
+
+Substituting this back into the amplitude:
+
+\begin{eqnarray*}
+  \frac{1}{q_3^2q^2}q_0^2j^A_0j^{0B} - \frac{1}{q^2}j^A_0j^{0B} & = & \frac{1}{q^2}j^A_0(x)j^{0B}(x)\left(\frac{q_0^2 - q_3^2}{q_3^2}\right) \\
+  \textrm{but } q^2 & = & q_0^2 - q_3^2 \\
+  \textrm{so } amplitude & = & \frac{j_0^A(x)j^{0B}(x)}{q_3^2}
+\end{eqnarray*}
+
+which is Coulomb's law in three-momentum space.
+
+The completeness relation for real photons is:
+
+\[
+  \left(
+    \begin{array}{c}
+    1 \\
+    0
+    \end{array}
+  \right)
+  \left(1 0\right)
+  +
+  \left(
+    \begin{array}{c}
+    0 \\
+    1
+    \end{array}
+  \right)
+  \left(0 1\right)
+  =
+  \left(
+    \begin{array}{cc}
+    1 & 0 \\
+    0 & 1
+    \end{array}
+  \right)
+\]
+
+However the same completeness relation can be used as for virtual photons.
+
+\[
+  \textrm{ie} -g^{\mu\nu} = 
+  \left(
+    \begin{array}{cccccc}
+    -1 & & 0 & 0 & & 0 \\
+      \begin{array}{c}
+      0 \\
+      0
+      \end{array}
+    &
+    \Bigg\{
+    &
+      \begin{array}{c}
+      1 \\
+      0
+      \end{array}
+    &
+      \begin{array}{c}
+      0 \\
+      1
+      \end{array}
+    &
+    \Bigg\}
+    &
+      \begin{array}{c}
+      0 \\
+      0
+      \end{array}
+    \\
+    0 & & 0 & 0 & & 1
+    \end{array}
+  \right)
+\]
+
+where the $\{ \cdots \}$ denotes the real parts of the polarisation.
+
+The generalised form of virtual photons ($-g^{\mu\nu}$) is used for the completeness relation for virtual photons.

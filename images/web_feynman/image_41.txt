@@ -1,0 +1,53 @@
+user_glyphs.push("\gamma(k)");
+user_glyphs.push("\gamma(k')");
+user_glyphs.push("e^-(p)");
+user_glyphs.push("e^+(p')");
+el = new arc_element(120,310,220,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,200,380,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,200,480,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,100,220,200);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,200,100,100);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",90,310);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",510,310);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_gamma",80,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_gamma",520,110);characters.push(symbol);

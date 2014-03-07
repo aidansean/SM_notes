@@ -1,0 +1,39 @@
+el = new arc_element(300,200,500,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,260,300,260);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,300,260);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(270,230);
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(120,230,270,230);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_gammaStar",90,240);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_quark",520,200);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_antiQuark",520,260);characters.push(symbol);

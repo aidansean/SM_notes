@@ -1,0 +1,534 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./StandardModel.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode,
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.8 <2012/05/24>
+ Copyright (c) 1991-2011 by Kristoffer H. Rose <krisrose@tug.org>
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state, direction,
+utility macros; pictures: \xy, positions, objects, decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve, circles, loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.9 loaded) loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10 loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14 loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+Xy-pic pdf driver: `curve' extension support
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+Xy-pic pdf driver: `frame' extension support
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+Xy-pic pdf driver: `line' extension support
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+Xy-pic pdf driver: `rotate' extension support
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
+loaded)) (/usr/local/texlive/2013/texmf-dist/tex/latex/lastpage/lastpage.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fncychap/fncychap.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(./page_layout.tex) (./custom_commands.tex)
+
+LaTeX Warning: Unused global option(s):
+    [A4].
+
+(./StandardModel.aux
+
+LaTeX Warning: Label `fig:ch14_DrellYanUDToENu' multiply defined.
+
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./StandardModel.out) (./StandardModel.out) [1{/usr/local/texlive/2013/texmf-va
+r/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 30--30
+[][] 
+(./StandardModel.toc [3] [4] [5]) [6]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
+[][] 
+(./StandardModel.lof [7] [8]) [9] [10] (./chapter_1.tex
+Chapter 1.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd) [11] [12]
+<images/chapter_1/galacticCurve.pdf, id=897, 590.205pt x 484.30937pt>
+<use images/chapter_1/galacticCurve.pdf> [13 <./images/chapter_1/galacticCurve.
+pdf>] <images/web_feynman/image_88.png, id=917, 451.6875pt x 561.09625pt>
+<use images/web_feynman/image_88.png> [14 <./images/web_feynman/image_88.png>]
+<images/chapter_1/type1Supernovae.pdf, id=926, 472.76625pt x 456.20438pt>
+<use images/chapter_1/type1Supernovae.pdf> [15 <./images/chapter_1/type1Superno
+vae.pdf>]
+<images/chapter_1/powerSpectrum.pdf, id=945, 696.6025pt x 691.08188pt>
+<use images/chapter_1/powerSpectrum.pdf>
+<images/web_feynman/image_1.png, id=948, 676.5275pt x 354.32375pt>
+<use images/web_feynman/image_1.png>
+<images/web_feynman/image_2.png, id=951, 583.17876pt x 315.1775pt>
+<use images/web_feynman/image_2.png>
+<images/web_feynman/image_3.png, id=952, 372.39125pt x 425.59pt>
+<use images/web_feynman/image_3.png>
+<images/web_feynman/image_4.png, id=953, 372.39125pt x 425.59pt>
+<use images/web_feynman/image_4.png> [16] [17 <./images/chapter_1/powerSpectrum
+.pdf>] [18 <./images/web_feynman/image_1.png> <./images/web_feynman/image_2.png
+>] [19 <./images/web_feynman/image_3.png> <./images/web_feynman/image_4.png>]
+[20] <images/web_feynman/image_5.png, id=999, 311.1625pt x 413.545pt>
+<use images/web_feynman/image_5.png>
+<images/web_feynman/image_6.png, id=1000, 311.1625pt x 413.545pt>
+<use images/web_feynman/image_6.png>
+<images/web_feynman/image_7.png, id=1001, 311.1625pt x 413.545pt>
+<use images/web_feynman/image_7.png>
+<images/chapter_1/SUSYUnification.pdf, id=1003, 711.65875pt x 430.60875pt>
+<use images/chapter_1/SUSYUnification.pdf>) [21 <./images/web_feynman/image_5.p
+ng> <./images/web_feynman/image_6.png> <./images/web_feynman/image_7.png>]
+[22 <./images/chapter_1/SUSYUnification.pdf>] (./chapter_2.tex
+Chapter 2.
+[23] <images/web_feynman/image_8.png, id=1037, 556.0775pt x 418.56375pt>
+<use images/web_feynman/image_8.png>
+<images/chapter_2/pionNucleonScattering.pdf, id=1038, 716.6775pt x 457.71pt>
+<use images/chapter_2/pionNucleonScattering.pdf> [24]
+
+LaTeX Warning: Text page 25 contains only floats.
+
+[25 <./images/web_feynman/image_8.png> <./images/chapter_2/pionNucleonScatterin
+g.pdf>] <images/chapter_2/Argus.pdf, id=1066, 447.6725pt x 293.095pt>
+<use images/chapter_2/Argus.pdf> [26 <./images/chapter_2/Argus.pdf>]) [27]
+[28] (./chapter_3.tex
+Chapter 3.
+[29] [30] [31]
+<images/chapter_3/MesonNonetSpin0.pdf, id=1114, 1604.99625pt x 1156.32pt>
+<use images/chapter_3/MesonNonetSpin0.pdf>
+<images/chapter_3/MesonNonetSpin1.pdf, id=1116, 1604.99625pt x 1156.32pt>
+<use images/chapter_3/MesonNonetSpin1.pdf> [32 <./images/chapter_3/MesonNonetSp
+in0.pdf> <./images/chapter_3/MesonNonetSpin1.pdf>]
+<images/web_feynman/image_9.png, id=1146, 583.17876pt x 352.31625pt>
+<use images/web_feynman/image_9.png>
+<images/web_feynman/image_10.png, id=1147, 583.17876pt x 352.31625pt>
+<use images/web_feynman/image_10.png> [33 <./images/web_feynman/image_9.png> <.
+/images/web_feynman/image_10.png>] [34]
+<images/chapter_3/F2.pdf, id=1162, 637.38126pt x 766.865pt>
+<use images/chapter_3/F2.pdf>
+<images/web_feynman/image_11.png, id=1164, 573.14125pt x 344.28625pt>
+<use images/web_feynman/image_11.png>
+<images/chapter_3/electroweakUnification.pdf, id=1166, 564.1075pt x 534.99875pt
+> <use images/chapter_3/electroweakUnification.pdf> [35] [36 <./images/chapter_
+3/F2.pdf> <./images/web_feynman/image_11.png>] [37 <./images/chapter_3/electrow
+eakUnification.pdf>]
+<images/chapter_3/mumuspectrumCMS.pdf, id=1208, 1244.65pt x 837.1275pt>
+<use images/chapter_3/mumuspectrumCMS.pdf>
+<images/web_feynman/image_14.png, id=1211, 598.235pt x 325.215pt>
+<use images/web_feynman/image_14.png>
+<images/web_feynman/image_15.png, id=1212, 500.87125pt x 495.8525pt>
+<use images/web_feynman/image_15.png>
+<images/chapter_3/zwidth.pdf, id=1214, 602.25pt x 595.22375pt>
+<use images/chapter_3/zwidth.pdf> [38 <./images/chapter_3/mumuspectrumCMS.pdf>]
+ <images/web_feynman/image_16.png, id=1236, 573.14125pt x 319.1925pt>
+<use images/web_feynman/image_16.png>
+Underfull \vbox (badness 10000) has occurred while \output is active [39 <./ima
+ges/web_feynman/image_14.png> <./images/web_feynman/image_15.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active [40 <./ima
+ges/chapter_3/zwidth.pdf> <./images/web_feynman/image_16.png>]
+<images/chapter_3/Upsilon.pdf, id=1262, 602.25pt x 890.32625pt>
+<use images/chapter_3/Upsilon.pdf> [41 <./images/chapter_3/Upsilon.pdf>]
+<images/chapter_3/QCD_pt.pdf, id=1280, 855.195pt x 812.03375pt>
+<use images/chapter_3/QCD_pt.pdf>) [42 <./images/chapter_3/QCD_pt.pdf>]
+(./chapter_4.tex
+Chapter 4.
+[43] [44] [45] [46] [47] [48] [49] [50]
+<images/chapter_4/action2.pdf, id=1353, 1003.75pt x 501.875pt>
+<use images/chapter_4/action2.pdf> [51] [52 <./images/chapter_4/action2.pdf>]
+<images/chapter_4/diracDelta.pdf, id=1375, 1003.75pt x 501.875pt>
+<use images/chapter_4/diracDelta.pdf> [53] [54 <./images/chapter_4/diracDelta.p
+df>] [55] <images/chapter_4/heaviside.pdf, id=1405, 1003.75pt x 501.875pt>
+<use images/chapter_4/heaviside.pdf> [56]) [57 <./images/chapter_4/heaviside.pd
+f>] [58] (./chapter_5.tex
+Chapter 5.
+[59] [60] <images/chapter_5/lightcone.pdf, id=1445, 1003.75pt x 1003.75pt>
+<use images/chapter_5/lightcone.pdf> [61 <./images/chapter_5/lightcone.pdf>]
+[62] <images/web_feynman/image_17.png, id=1468, 498.86375pt x 392.46625pt>
+<use images/web_feynman/image_17.png>
+<images/web_feynman/image_18.png, id=1469, 512.91624pt x 382.42876pt>
+<use images/web_feynman/image_18.png>
+<images/web_feynman/image_19.png, id=1470, 515.9275pt x 392.46625pt>
+<use images/web_feynman/image_19.png>
+Overfull \hbox (92.63701pt too wide) in paragraph at lines 175--180
+ [] 
+[63 <./images/web_feynman/image_17.png> <./images/web_feynman/image_18.png> <./
+images/web_feynman/image_19.png>] [64] [65]
+<images/chapter_5/path1.pdf, id=1504, 1003.75pt x 1003.75pt>
+<use images/chapter_5/path1.pdf>
+<images/chapter_5/path2.pdf, id=1505, 1003.75pt x 1003.75pt>
+<use images/chapter_5/path2.pdf>
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 312--316
+ [] 
+) [66 <./images/chapter_5/path1.pdf> <./images/chapter_5/path2.pdf>]
+(./chapter_6.tex
+Chapter 6.
+[67]
+Overfull \hbox (30.75755pt too wide) detected at line 60
+\OML/cmm/m/it/10  \OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 ; t[]\OT1/cmr/m/n/10 ) 
+= \OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 ; t[]\OT1/cmr/m/n/1
+0 ) + [] d[]\OML/cmm/m/it/10 x[]G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cm
+r/m/n/10 ; 1)\OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (1)\OML/cmm/m/it/10 ^^^\OT1/cmr/
+m/n/10 (1) + [] [] d[]\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 d[]\OML/cmm/m/it/10 x
+[]G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ; 2)\OML/cmm/m/it/10 
+V\OT1/cmr/m/n/10 (2)\OML/cmm/m/it/10 G[]\OT1/cmr/m/n/10 (2; 1)\OML/cmm/m/it/10 
+V\OT1/cmr/m/n/10 (1)\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 (1)
+[68]) [69] [70] (./chapter_7.tex
+Chapter 7.
+<images/web_feynman/image_20.png, id=1551, 382.42876pt x 305.14pt>
+<use images/web_feynman/image_20.png> [71 <./images/web_feynman/image_20.png>]
+[72]
+Overfull \hbox (45.29976pt too wide) in alignment at lines 99--103
+ [][][] []
+[73]
+Overfull \hbox (52.76973pt too wide) in alignment at lines 125--131
+ [][][] []
+[74] [75] <images/web_feynman/image_21.png, id=1584, 451.6875pt x 234.8775pt>
+<use images/web_feynman/image_21.png> [76 <./images/web_feynman/image_21.png>]
+<images/web_feynman/image_22.png, id=1593, 472.76625pt x 354.32375pt>
+<use images/web_feynman/image_22.png>
+<images/web_feynman/image_23.png, id=1594, 462.72874pt x 203.76125pt>
+<use images/web_feynman/image_23.png> [77 <./images/web_feynman/image_22.png>]
+[78 <./images/web_feynman/image_23.png>]) [79] [80] (./chapter_8.tex
+Chapter 8.
+[81] [82] [83] [84] [85] [86] [87] [88] [89]
+Overfull \hbox (26.2245pt too wide) detected at line 750
+[] [] \OMS/cmsy/m/n/10 ^^@ [] [] \OT1/cmr/m/n/10 = []
+<images/web_feynman/image_24.png, id=1673, 551.05875pt x 478.78876pt>
+<use images/web_feynman/image_24.png>
+Overfull \hbox (16.22647pt too wide) in alignment at lines 770--818
+ [][][] []
+[90] [91 <./images/web_feynman/image_24.png>] [92] [93]
+Overfull \hbox (51.92734pt too wide) in alignment at lines 1213--1222
+ [][][] []
+[94] [95] [96]
+<images/web_feynman/image_87.png, id=1722, 473.77pt x 370.38374pt>
+<use images/web_feynman/image_87.png> [97] [98 <./images/web_feynman/image_87.p
+ng>]
+Overfull \hbox (6.4151pt too wide) in paragraph at lines 1478--1479
+[]\OT1/cmr/m/n/10 The only non-zero terms are terms in-volv-ing two or four $\O
+ML/cmm/m/it/10 ^^M$ \OT1/cmr/m/n/10 ma-tri-ces. eg $[] =
+
+Overfull \hbox (5.84407pt too wide) in alignment at lines 1480--1486
+ [][][] []
+[99] <images/web_feynman/image_25.png, id=1741, 409.53pt x 430.60875pt>
+<use images/web_feynman/image_25.png>
+<images/web_feynman/image_26.png, id=1742, 637.38126pt x 338.26375pt>
+<use images/web_feynman/image_26.png>
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 1521--1525
+ [] 
+[100 <./images/web_feynman/image_25.png> <./images/web_feynman/image_26.png>]
+[101] <images/web_feynman/image_28.png, id=1755, 543.02875pt x 305.14pt>
+<use images/web_feynman/image_28.png>
+<images/web_feynman/image_29.png, id=1756, 543.02875pt x 363.3575pt>
+<use images/web_feynman/image_29.png>
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 1602--1606
+ [] 
+<images/web_feynman/image_30.png, id=1757, 472.76625pt x 405.515pt>
+<use images/web_feynman/image_30.png> [102 <./images/web_feynman/image_28.png> 
+<./images/web_feynman/image_29.png>]
+<images/web_feynman/image_31.png, id=1765, 573.14125pt x 425.59pt>
+<use images/web_feynman/image_31.png> [103 <./images/web_feynman/image_30.png>]
+ <images/web_feynman/image_32.png, id=1773, 587.19376pt x 325.215pt>
+<use images/web_feynman/image_32.png>
+<images/web_feynman/image_34.png, id=1774, 558.085pt x 401.5pt>
+<use images/web_feynman/image_34.png> [104 <./images/web_feynman/image_31.png> 
+<./images/web_feynman/image_32.png> <./images/web_feynman/image_34.png>]
+<images/web_feynman/image_33.png, id=1783, 593.21625pt x 365.365pt>
+<use images/web_feynman/image_33.png> [105]) [106 <./images/web_feynman/image_3
+3.png>] (./chapter_9.tex
+Chapter 9.
+[107] [108] [109] [110] [111]
+Overfull \hbox (23.67644pt too wide) in alignment at lines 244--247
+ [][][] []
+[112]) [113] [114] (./chapter_10.tex
+Chapter 10.
+[115] [116] [117]) [118] (./chapter_11.tex
+Chapter 11.
+<images/web_feynman/image_36.png, id=1862, 573.14125pt x 578.16pt>
+<use images/web_feynman/image_36.png>
+<images/web_feynman/image_37.png, id=1863, 683.55376pt x 342.27875pt>
+<use images/web_feynman/image_37.png>
+<images/web_feynman/image_38.png, id=1864, 642.4pt x 484.81125pt>
+<use images/web_feynman/image_38.png>
+<images/web_feynman/image_39.png, id=1865, 622.325pt x 484.81125pt>
+<use images/web_feynman/image_39.png>
+<images/web_feynman/image_40.png, id=1866, 614.295pt x 327.2225pt>
+<use images/web_feynman/image_40.png> [119 <./images/web_feynman/image_36.png>]
+ [120 <./images/web_feynman/image_37.png> <./images/web_feynman/image_38.png>]
+[121 <./images/web_feynman/image_39.png> <./images/web_feynman/image_40.png>]
+<images/web_feynman/image_41.png, id=1887, 586.19pt x 358.33875pt>
+<use images/web_feynman/image_41.png>
+Overfull \hbox (37.43048pt too wide) in alignment at lines 119--134
+ [][][] []
+[122] [123 <./images/web_feynman/image_41.png>]) [124] (./chapter_12.tex
+Chapter 12.
+<images/web_feynman/image_42.png, id=1904, 397.485pt x 363.3575pt>
+<use images/web_feynman/image_42.png> [125]
+<images/web_feynman/image_43.png, id=1909, 492.84125pt x 445.665pt>
+<use images/web_feynman/image_43.png> [126 <./images/web_feynman/image_42.png> 
+<./images/web_feynman/image_43.png>] [127]
+<images/web_feynman/image_44.png, id=1923, 693.59125pt x 445.665pt>
+<use images/web_feynman/image_44.png>
+<images/web_feynman/image_45.png, id=1924, 511.9125pt x 445.665pt>
+<use images/web_feynman/image_45.png>
+<images/web_feynman/image_46.png, id=1925, 493.845pt x 347.2975pt>
+<use images/web_feynman/image_46.png> [128 <./images/web_feynman/image_44.png> 
+<./images/web_feynman/image_45.png>] [129 <./images/web_feynman/image_46.png>]
+Overfull \hbox (55.33524pt too wide) in alignment at lines 188--190
+ [][][] []
+[130] [131] [132]
+<images/web_feynman/image_47.png, id=1956, 542.025pt x 531.9875pt>
+<use images/web_feynman/image_47.png>
+<images/web_feynman/image_48.png, id=1957, 693.59125pt x 504.88625pt>
+<use images/web_feynman/image_48.png> [133]
+Underfull \vbox (badness 2261) has occurred while \output is active [134 <./ima
+ges/web_feynman/image_47.png> <./images/web_feynman/image_48.png>] [135]
+<images/web_feynman/image_49.png, id=1985, 657.45625pt x 379.4175pt>
+<use images/web_feynman/image_49.png>
+<images/web_feynman/image_50.png, id=1986, 653.44125pt x 315.1775pt>
+<use images/web_feynman/image_50.png> [136 <./images/web_feynman/image_49.png>]
+ [137 <./images/web_feynman/image_50.png>]
+<images/web_feynman/image_51.png, id=1999, 451.6875pt x 493.845pt>
+<use images/web_feynman/image_51.png>
+<images/web_feynman/image_52.png, id=2002, 357.335pt x 372.39125pt>
+<use images/web_feynman/image_52.png>
+<images/web_feynman/image_53.png, id=2003, 357.335pt x 371.3875pt>
+<use images/web_feynman/image_53.png> [138 <./images/web_feynman/image_51.png> 
+<./images/web_feynman/image_52.png>]
+<images/web_feynman/image_54.png, id=2012, 683.55376pt x 350.30875pt>
+<use images/web_feynman/image_54.png> [139 <./images/web_feynman/image_53.png>]
+ [140 <./images/web_feynman/image_54.png>] [141]
+<images/web_feynman/image_55.png, id=2031, 542.025pt x 364.36125pt>
+<use images/web_feynman/image_55.png> [142 <./images/web_feynman/image_55.png>]
+) [143] [144] (./chapter_13.tex
+Chapter 13.
+<images/web_feynman/image_56.png, id=2049, 472.76625pt x 325.215pt>
+<use images/web_feynman/image_56.png> [145] [146 <./images/web_feynman/image_56
+.png>] [147] [148]
+<images/web_feynman/image_57.png, id=2071, 456.70625pt x 330.23375pt>
+<use images/web_feynman/image_57.png>
+<images/web_feynman/image_58.png, id=2072, 661.47125pt x 330.23375pt>
+<use images/web_feynman/image_58.png> [149 <./images/web_feynman/image_57.png>]
+ <images/web_feynman/image_59.png, id=2079, 617.30624pt x 355.3275pt>
+<use images/web_feynman/image_59.png>) [150 <./images/web_feynman/image_58.png>
+] [151 <./images/web_feynman/image_59.png>] [152] (./chapter_14.tex
+Chapter 14.
+<images/web_feynman/image_60.png, id=2098, 645.41125pt x 444.66125pt>
+<use images/web_feynman/image_60.png> [153]
+<images/web_feynman/image_61.png, id=2104, 451.6875pt x 242.9075pt>
+<use images/web_feynman/image_61.png> [154 <./images/web_feynman/image_60.png> 
+<./images/web_feynman/image_61.png>]
+<images/web_feynman/image_62.png, id=2112, 459.7175pt x 173.64874pt>
+<use images/web_feynman/image_62.png>
+<images/web_feynman/image_63.png, id=2113, 451.6875pt x 277.035pt>
+<use images/web_feynman/image_63.png> [155 <./images/web_feynman/image_62.png>]
+
+Overfull \hbox (6.21677pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10 In the nu-cleon the frac-tion of quarks hav-ing $\OML/cmm/m/i
+t/10 x$ \OT1/cmr/m/n/10 be-tween $\OML/cmm/m/it/10 x[]$ \OT1/cmr/m/n/10 and $\O
+ML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^Nx[]$ \OT1/cmr/m/n/10 i
+s $\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; Q[]\OT1/cmr/m/n/1
+0 )d\OML/cmm/m/it/10 x[]$
+[156 <./images/web_feynman/image_63.png>]
+<images/web_feynman/image_64.png, id=2126, 582.175pt x 451.6875pt>
+<use images/web_feynman/image_64.png>
+<images/web_feynman/image_65.png, id=2127, 573.14125pt x 316.18124pt>
+<use images/web_feynman/image_65.png>
+<images/web_feynman/image_66.png, id=2128, 562.1pt x 451.6875pt>
+<use images/web_feynman/image_66.png> [157]
+<images/web_feynman/image_67.png, id=2135, 512.91624pt x 422.57875pt>
+<use images/web_feynman/image_67.png>
+Underfull \vbox (badness 10000) has occurred while \output is active [158 <./im
+ages/web_feynman/image_64.png> <./images/web_feynman/image_65.png>]
+<images/web_feynman/image_68.png, id=2143, 497.86pt x 344.28625pt>
+<use images/web_feynman/image_68.png> [159 <./images/web_feynman/image_66.png> 
+<./images/web_feynman/image_67.png>]
+<images/web_feynman/image_69.png, id=2151, 568.1225pt x 174.6525pt>
+<use images/web_feynman/image_69.png>
+<images/web_feynman/image_70.png, id=2152, 430.60875pt x 471.7625pt>
+<use images/web_feynman/image_70.png> [160 <./images/web_feynman/image_68.png> 
+<./images/web_feynman/image_69.png> <./images/web_feynman/image_70.png>]
+<images/web_feynman/image_71.png, id=2161, 647.41875pt x 318.18875pt>
+<use images/web_feynman/image_71.png> [161 <./images/web_feynman/image_71.png>]
+ <images/web_feynman/image_72.png, id=2168, 542.025pt x 326.21875pt>
+<use images/web_feynman/image_72.png> [162 <./images/web_feynman/image_72.png>]
+ <images/web_feynman/image_73a.png, id=2175, 543.02875pt x 198.7425pt>
+<use images/web_feynman/image_73a.png>
+<images/web_feynman/image_73b.png, id=2176, 543.02875pt x 197.73875pt>
+<use images/web_feynman/image_73b.png>
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 343--347
+ [] 
+[163] <images/web_feynman/image_74.png, id=2183, 497.86pt x 345.29pt>
+<use images/web_feynman/image_74.png>
+<images/web_feynman/image_75.png, id=2184, 447.6725pt x 372.39125pt>
+<use images/web_feynman/image_75.png>
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 367--371
+ [] 
+<images/web_feynman/image_76.png, id=2185, 582.175pt x 396.48125pt>
+<use images/web_feynman/image_76.png> [164 <./images/web_feynman/image_73a.png>
+ <./images/web_feynman/image_73b.png> <./images/web_feynman/image_74.png> <./im
+ages/web_feynman/image_75.png>]) [165 <./images/web_feynman/image_76.png>]
+[166] (./chapter_15.tex
+Chapter 15.
+[167] [168] [169]
+<images/web_feynman/image_77.png, id=2221, 697.60625pt x 316.18124pt>
+<use images/web_feynman/image_77.png>
+Overfull \hbox (37.2725pt too wide) in alignment at lines 166--172
+ [][][] []
+[170] <images/web_feynman/image_78.png, id=2227, 459.7175pt x 320.19624pt>
+<use images/web_feynman/image_78.png>
+Overfull \hbox (97.89217pt too wide) in alignment at lines 198--212
+ [][][] []
+[171 <./images/web_feynman/image_77.png> <./images/web_feynman/image_78.png>]
+[172] <images/web_feynman/image_79.png, id=2241, 626.34pt x 436.63126pt>
+<use images/web_feynman/image_79.png>
+<images/web_feynman/image_80.png, id=2242, 573.14125pt x 515.9275pt>
+<use images/web_feynman/image_80.png> [173 <./images/web_feynman/image_79.png>]
+ <images/web_feynman/image_81.png, id=2249, 642.4pt x 361.35pt>
+<use images/web_feynman/image_81.png> [174 <./images/web_feynman/image_80.png> 
+<./images/web_feynman/image_81.png>]
+<images/web_feynman/image_82.png, id=2257, 530.98375pt x 417.56pt>
+<use images/web_feynman/image_82.png>) [175 <./images/web_feynman/image_82.png>
+] [176] (./chapter_16.tex
+Chapter 16.
+[177] <images/web_feynman/image_83.png, id=2277, 532.99126pt x 432.61626pt>
+<use images/web_feynman/image_83.png>
+Overfull \hbox (47.04198pt too wide) in alignment at lines 55--61
+ [][][] []
+[178 <./images/web_feynman/image_83.png>] [179] [180]
+Overfull \hbox (60.69524pt too wide) in alignment at lines 245--312
+ [][][] []
+[181] <images/web_feynman/image_84.png, id=2300, 603.25375pt x 685.56125pt>
+<use images/web_feynman/image_84.png> [182]
+Overfull \hbox (35.37643pt too wide) in alignment at lines 384--402
+ [][][] []
+<images/web_feynman/image_85.png, id=2306, 386.44376pt x 579.16376pt>
+<use images/web_feynman/image_85.png> [183 <./images/web_feynman/image_84.png>]
+ [184 <./images/web_feynman/image_85.png>] [185] [186] [187]
+<images/web_feynman/image_86.png, id=2335, 620.3175pt x 566.115pt>
+<use images/web_feynman/image_86.png>) [188] [189 <./images/web_feynman/image_8
+6.png>] [190] (./bibliography.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+
+Underfull \hbox (badness 4303) in paragraph at lines 2--3
+[]\OT1/cmr/m/it/10 ``Extended ro-ta-tion curves of spi-ral galax-ies: dark halo
+es and mod-
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 i-fied dy-nam-ics''\OT1/cmr/m/n/10 , MN-RAS, vol. 249, April 1
+, 1991, p. 523-537.
+
+Underfull \hbox (badness 1389) in paragraph at lines 4--5
+\OT1/cmr/m/it/10 with-out dark en-ergy'' \OT1/cmr/m/n/10 (http://phys.org/news/
+ 2011-10-supernovae-universe-
+
+Underfull \hbox (badness 1910) in paragraph at lines 10--11
+[]\OT1/cmr/m/it/10 ``Low en-ergy pion-nucleon scat-ter-ing''\OT1/cmr/m/n/10 , B
+ Levi et al. SLAC-131 UC-34
+
+Underfull \hbox (badness 2050) in paragraph at lines 20--21
+[]\OT1/cmr/m/it/10 ``Precision Elec-troweak Mea-sure-ments on the $\OML/cmm/m/i
+t/10 Z$ \OT1/cmr/m/it/10 Res-o-nance''\OT1/cmr/m/n/10 , arXiv:hep-
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[]\OT1/cmr/m/it/10 ``Discovery of the bot-tom quark, Up-silon''
+
+Underfull \hbox (badness 5245) in paragraph at lines 24--25
+[]\OT1/cmr/m/it/10 ``Measurement of the in-clu-sive jet cross sec-tion in $\OML
+/cmm/m/it/10 pp$ \OT1/cmr/m/it/10 col-li-sions at
+
+Underfull \hbox (badness 2035) in paragraph at lines 24--25
+[] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 76[]$ \OT1/cmr/m/it/10 
+and com-par-i-son to the in-clu-sive jet cross sec-tion at
+
+Underfull \hbox (badness 2875) in paragraph at lines 24--25
+[] \OT1/cmr/m/n/10 = 7[]$ \OT1/cmr/m/it/10 us-ing the AT-LAS de-tec-tor'' \OT1/
+cmr/m/n/10 , arXiv:1304.4739 [hep-ex]
+[191]) 
+AED: lastpage setting LastPage
+[192] (./StandardModel.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/latxfont/lasy10.pfb>
+Output written on StandardModel.pdf (192 pages, 4157156 bytes).
+Transcript written on StandardModel.log.

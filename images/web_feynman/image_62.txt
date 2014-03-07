@@ -1,0 +1,24 @@
+user_glyphs.push("e^\pm/\nu/\bar{\nu}");
+user_glyphs.push("k");
+user_glyphs.push("xp");
+el = new arc_element(100,200,260,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(460,200,300,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_0",150,180);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",180,240);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",370,240);characters.push(symbol);

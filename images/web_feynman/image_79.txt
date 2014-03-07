@@ -1,0 +1,107 @@
+user_glyphs.push("\mathcal{L} = ");
+user_glyphs.push("\bar{q}q");
+user_glyphs.push("G^2");
+user_glyphs.push("g_s\bar{q}qG");
+user_glyphs.push("g_sG^3");
+user_glyphs.push("g_sG^4");
+user_glyphs.push("+");
+el = new arc_element(90,150,190,150);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(250,150,360,150);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(410,150,510,150);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(510,150,550,110);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(510,150,550,190);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(120,380,220,380);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,380,280,440);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(280,320,220,380);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(350,320,470,440);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(350,440,470,320);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_0",30,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",130,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",290,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_3",440,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_4",160,290);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_5",390,290);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_6",210,120);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_6",380,120);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_6",90,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_6",300,300);characters.push(symbol);

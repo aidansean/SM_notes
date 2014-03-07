@@ -1,0 +1,32 @@
+user_glyphs.push("j^\mu = \bar{u}_\nu\gamma^\mu\frac{1}{2}(1-\gamma^5)u_e");
+el = new arc_element(60,200,200,200);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,300,200,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(210,210,300,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_WPlus",120,170);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronPlus",320,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_nuE",320,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",120,360);characters.push(symbol);

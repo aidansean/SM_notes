@@ -1,0 +1,61 @@
+user_glyphs.push("improved\,\,");
+user_glyphs.push("resolution\,\,");
+user_glyphs.push("Q^2>Q_0^2");
+el = new arc_element(210,200,300,200);
+el.type = "dashed";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_circle();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,440,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(160,80,230,160);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(120,320,230,240);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(150,300,300,300);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(330,290,270,220);
+el.type = "solid";
+el.arrowhead_position = "end";
+el.arrowhead_style = "hollow";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_0",360,290);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",360,330);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_gammaStar",90,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",230,100);characters.push(symbol);

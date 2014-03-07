@@ -1,0 +1,207 @@
+% Copyright Aidan Randle-Conde 2007-2014
+% http://www.aidansean.com/phd_notes
+% Anyone is free to download, redistribute, edit and use these notes and the source tex files with the following restrictions:
+% This 
+%  This message is included in the tex source files.
+%  Aidan Randle-Conde is credited as the author.
+%  Images are correctly credited to their respective authors, as outlined in the references.
+%  No part of these notes may be used for commercial purposes.
+
+\chapter{Massive spin\texorpdfstring{$-1$}{1} particles}
+
+For a massless photon the four-potential satisfies:
+
+\[
+  \Box^2A^{\mu} - \partial^{\mu}\partial_{\nu}A^{\nu} = j^{\mu}
+\]
+
+For a free particle $j^{\mu} = 0$
+
+\begin{eqnarray*}
+  \textrm{so }\Box^2A^{\mu} = \partial^{\mu}\partial_{\nu} & = & 0 \\
+  \left( \frac{\partial^2}{\partial t^2}\right)A^{\mu} - \partial^{\mu}\partial_{\nu}A^{\nu} & = & 0 \\
+  \left(E^2 + p^2\right)A^{\mu} - \partial^{\mu}\partial_{\nu}A^{\nu} & = & 0
+\end{eqnarray*}
+
+For masssive particles $E^2 = p^2 + m^2$, so a massive particle satisfies:
+
+\[
+  \Box^2A^{\mu} + m^2A^{\mu}-\partial^{\mu}\partial_{\nu} A^{\nu} = 
+  \left\{
+    \begin{array}{cc}
+    0 & \quad\textrm{real} \\
+    j^{\mu} & \quad\textrm{virtual}
+    \end{array}
+  \right.
+\]
+
+This the Proca equation.  Differentiating with respect to $\partial_{\mu}$:
+
+\begin{eqnarray*}
+  \partial_{\mu}\Box^2A^{\mu} + m^2\partial_{\mu}A^{\mu} - \partial_{\mu}\partial^{\mu}\partial_{\nu}A^{\nu} & = & \partial_{\mu}j^{\mu} \\
+  & = & 0 \\
+  \partial_{\mu}\partial_{\mu}\partial^{\mu}A^{\mu} + m^2 \partial_{\mu}A^{\mu} - \partial_{\mu}\partial^{\mu}\partial_{\nu}A^{\nu} \\
+  \textrm{so } m^2\partial_{\mu}A^{\mu} & = & 0 \quad (m^2 \neq 0)
+\end{eqnarray*}
+
+Therefore the (free) Proca equation field satisfies the Lorentz condition.  The polarisation vectors for free massive vector bosons is:
+
+\[
+  A^{\mu} = \epsilon^{\mu}\e^{-ip_{\mu}x^{\mu}}
+\]
+
+As $\partial_{\mu}A^{\mu} = 0$, $ip_{\mu}\epsilon^{\mu} = 0$.
+
+In the rest frame:
+
+\begin{eqnarray*}
+  p^{\mu}    & = & (m,0,0,0) \\
+  \epsilon_1 & = & (0,1,0,0) \\
+  \epsilon_2 & = & (0,0,1,0) \\
+  \epsilon_3 & = & (0,0,0,1)
+\end{eqnarray*}
+
+then $p^{\mu}\epsilon_{\mu} = 0$.
+
+Consider the polarisation states when $m$ is boosted along $z$.  $\epsilon_1$ and $\epsilon_2$ remain unchanged as they are perpendicular to the boost.  The particle is now described by the four-vector:
+
+\[
+  (E,0,0,-p_z)
+\]
+
+It is possible to determine $\epsilon_3$ by requiring the Lorentz condition.
+
+\begin{eqnarray*}
+  \Rightarrow (p_z,0,0,E)\times\frac{1}{m}(E,0,0,-p) & = & 0 \\
+  \textrm{So } \epsilon_3 & = & \frac{1}{m}(p_z,0,0,E)
+\end{eqnarray*}
+
+Consider the completeness relation for massive vector bosons:
+
+\begin{eqnarray*}
+  \sum_i \epsilon_i\epsilon_i^{\star} & = &
+  \left(
+    \begin{array}{c}
+    0 \\
+    1 \\
+    0 \\
+    0
+    \end{array}
+  \right)
+  (0 1 0 0)
+  + 
+  \left(
+    \begin{array}{c}
+    0 \\
+    0 \\
+    1 \\
+    0
+    \end{array}
+  \right)
+  (0 0 1 0)
+  + \frac{1}{m^2}
+  \left(
+    \begin{array}{c}
+    p_z \\
+    0 \\
+    0 \\
+    E
+    \end{array}
+  \right)
+  (p_z 0 0 E)
+  \\
+  & = &
+  \left(
+    \begin{array}{cccc}
+    \frac{p_z^2}{m^2} & 0 & 0 & 0 \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & \frac{E^2}{m^2}
+    \end{array}
+  \right)
+  \\
+  & = & -g^{\mu\nu} + \frac{p^{\mu}p^{\nu}}{m}
+\end{eqnarray*}
+
+The $00$ term is:
+
+\begin{eqnarray*}
+  -g^{00} + \frac{p^0p^0}{m^2} & = & -1 + \frac{\epsilon^2}{m^2} \\
+  & = & \frac{E^2 - m^2}{m^2} \\
+  & = & \frac{p_z^2}{m^2}
+\end{eqnarray*}
+
+And the $33$ term is:
+
+\begin{eqnarray*}
+  -g^{33} + \frac{p^3p^3}{m^2} & = & 1 + \frac{p_z^2}{m^2} \\
+  & = & \frac{p_z^2 + m^2}{m^2} \\
+  & = & \frac{E^2}{m^2}
+\end{eqnarray*}
+
+Similarly it is possible to determine the polarisation vectors for virtual photons.  Imposing the Lorentz condition removes the time-like polarisation state.  For the virtual photon:
+
+\begin{eqnarray*}
+  q^{\mu} & = & (\nu,0,0,q_z) \\
+  q^2 & = & q_{\mu}q^{\mu} \\
+  & = & \nu^2 - q_z^2 \\
+  \Rightarrow q_z^2 & = & \nu^2 - q^2 \\
+  & = & \nu^2 + Q^2 \\
+  \Rightarrow q_z & = & (\nu,0,0,\sqrt{\nu^2 + Q^2})
+\end{eqnarray*}
+
+In a deep elastic scattering experiment $Q^2$ and $\nu$ are known from the kinematics of the lepton vertex:
+
+(Feynmann diagram of deep inelastic scattering)
+
+Repearing the argument for the massive vector boson, the polarisation states for a virtual photon are:
+
+\begin{eqnarray*}
+  \epsilon_1 & = & (0,1,0,0) \\
+  \epsilon_2 & = & (0,0,1,0) \\
+  \epsilon_3 & = & \frac{1}{\sqrt{Q^4}}(\sqrt{\nu^2 + Q^2},0,0,\nu)
+\end{eqnarray*}
+
+\section{Massive virtual vector boson propagator}
+
+\begin{eqnarray*}
+  \left( \Box^2 + m^2\right) A^{\mu} - \partial^{\mu}\partial_{\nu}A^{\nu} & = & j^{\mu} \\
+  \textrm{But }m^2\partial_{\nu}A^{\nu} & = & \partial_{\mu}j^{\mu} \\
+  \Rightarrow \partial_{\nu}A^{\nu} & = & \frac{1}{m^2}\partial_{\mu}j^{\mu} \\
+  \Rightarrow \left( \Box^2 + m^2\right)A^{\mu} - \frac{\partial^{\mu}}{m^2}\partial_{\mu}j^{\mu} & = & j^{\mu} \\
+  \Rightarrow \left( \Box^2 + m^2\right)A^{\mu} & = & \frac{\partial^{\mu}}{m^2}\partial_{\nu}j^{\nu} + g^{\mu\nu}j_{\nu} \\
+  & = & \frac{\partial^{\mu}}{m^2}\partial^{\nu}j_{\nu} + g^{\mu\nu}j_{\nu} \\
+  & = & \left( g^{\mu\nu} - \frac{q^{\mu}q^{\nu}}{m^2}\right)j_{\nu} \\
+  \textrm{using } \partial^{\nu}j_{\nu} & = & (-iq)j^{\nu}
+\end{eqnarray*}
+
+So the propagator is:
+
+\[
+  \frac{g^{\mu\nu}-\frac{q^{\mu}q^{\nu}}{m^2}}{-q^2 + m^2}
+\]
+
+The above expression is the propagator for the exchange of the massive soin$-1$ particle.  However if the particle is formed in an annihilation process then it is a real particle which can decay.  The propagator of the spin$-1$ particle in the s-channel is modified in the following manner:
+
+\[
+  \Gamma = \frac{1}{m^2}|T_{fi}|^2p_f\frac{1}{32\pi^2}4\pi
+\]
+
+The quantum state of a decaying particle in the rest frame must be of the form:
+
+\[
+  \psi = \e^{-iMt}\e^{-\frac{\Gamma t}{2}}
+\]
+
+such that:
+
+\[
+  \psi^{\star}\psi = \e^{-\Gamma t}
+\]
+
+This suggests that for a decaying particle $-iM$ should be replaced with $-iM -\Gamma/2$ in the propagator.
+
+\begin{eqnarray*}
+  \textrm{So } propagator & = & \frac{-g^{\mu\nu} + \frac{q^{\mu}q^{\nu}}{m^2}}{q^2 - \left(m - \frac{i\Gamma}{2}\right)^2} \\
+  & \simeq & \frac{-g^{\mu\nu} + \frac{q^{\mu}q^{\nu}}{m}}{q^2 - m^2 + im\Gamma}
+\end{eqnarray*}

@@ -1,0 +1,35 @@
+user_glyphs.push("(\varepsilon,q^\mu)");
+user_glyphs.push("(\varepsilon^\mu,q^\mu)");
+user_glyphs.push("u(p')");
+user_glyphs.push("v(p)");
+el = new arc_element(400,300,300,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,400,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(160,200,300,200);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_Z",120,210);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",130,240);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",420,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_3",420,310);characters.push(symbol);

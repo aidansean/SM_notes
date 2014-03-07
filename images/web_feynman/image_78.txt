@@ -1,0 +1,33 @@
+user_glyphs.push("(k_1,\varepsilon_1)");
+user_glyphs.push("(k_2,\varepsilon_2)");
+user_glyphs.push("(k_3,\varepsilon_3)");
+el = new arc_element(140,200,300,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,400,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,400,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_0",140,240);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",420,120);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",420,310);characters.push(symbol);

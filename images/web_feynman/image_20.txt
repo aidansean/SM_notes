@@ -1,0 +1,50 @@
+el = new arc_element(200,100,300,160);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,160,400,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(210,300,300,260);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,260,400,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,160,300,260);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",170,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",420,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonMinus",170,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_MuonMinus",420,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_gamma",330,210);characters.push(symbol);

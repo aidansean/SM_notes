@@ -1,0 +1,25 @@
+During my PhD lecture course I typed up my notes as a form of revision.  A few years later someone asked for a copy.  After that I wrote the Feynman diagram maker application and shared the files on a repository.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/phd_notes/StandardModel.pdf">[pdf] Compiled notes</a>
+<a href="http://www.aidansean.com/phd_notes/StandardModel.zip">[zip] Archive</a>
+<a href="https://github.com/aidansean/SM_notes">GitHub repository</a>
+
+<h3>Overview</h3>
+
+This is a LaTeX project of around 200 pages, so there a lot of LaTeX source files.  In addition there are many images generated with the Feynman diagram maker, as well as many sourced from elsewhere.  These LaTeX source files are shared so that anyone can use them, subject to the terms outlined in the files.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: This project required an extensive collection of figures.</dt>
+
+<dd><em>Solution</em>: Custom Feynman diagram making applciations were developed to produce figures.  Initially PHP and SVG were used to generate some images, but this procedure was found to be too slow.  Instead a Javascript based application was developed that used the HTML canvas, saving images as bitmaps. (Resolved)</dd>
+</dl>
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: This project required an extensive collection of figures.</dt>
+
+<dd><em>Solution</em>: Custom Feynman diagram making applciations were developed to produce figures.  Initially PHP and SVG were used to generate some images, but this procedure was found to be too slow.  Instead a Javascript based application was developed that used the HTML canvas, saving images as bitmaps. (Resolved)</dd>
+</dl>

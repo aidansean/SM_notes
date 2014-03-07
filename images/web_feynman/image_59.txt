@@ -1,0 +1,67 @@
+user_glyphs.push("e^-(p_1)");
+user_glyphs.push("e^+(p_2)");
+user_glyphs.push("f(p_3)");
+user_glyphs.push("\bar{f}(p_4)");
+user_glyphs.push("\frac{g_W}{\cos\theta_W}");
+user_glyphs.push("e^+e^-\to f\bar{f}\gamma");
+el = new arc_element(100,100,200,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(200,200,100,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,300,400,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(400,200,500,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(200,200,400,200);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(120,280,220,280);
+el.type = "wavy";
+el.arrowhead_position = "end";
+el.arrowhead_style = "hollow";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_Z",290,190);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronPlus",70,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",70,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_f",520,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_fBar",520,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_gamma",240,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_5",250,340);characters.push(symbol);

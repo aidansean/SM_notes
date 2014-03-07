@@ -1,0 +1,85 @@
+user_glyphs.push("\bar{K}^0");
+user_glyphs.push("D^+");
+user_glyphs.push("\pi^+");
+el = new arc_element(300,100,100,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(100,160,300,160);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,160,500,160);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,100,300,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(400,240,400,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(380,280);
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,240,400,240);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(400,300,500,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,270,300,160);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.set_altitude(310,240);
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_user_1",30,140);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",540,140);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_2",550,280);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_charmQuark",80,160);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_strangeQuark",510,160);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_antiDownQuark",80,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_antiDownQuark",510,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_antiDownQuark",510,240);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_upQuark",510,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_WPlus",250,260);characters.push(symbol);

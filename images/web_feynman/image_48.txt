@@ -1,0 +1,104 @@
+el = new arc_element(40,100,140,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(140,200,240,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(140,200,140,320);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(40,420,140,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(140,320,240,420);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(340,100,460,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(460,200,560,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(340,420,460,320);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(460,320,560,420);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(460,200,460,320);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",10,430);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_nuE",250,430);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_WMinus",190,280);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_nuE",10,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",250,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",570,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_nuE",310,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_WMinus",500,280);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_downQuark",320,430);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_upQuark",570,430);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_strangeQuark",320,460);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_bottomQuark",320,490);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_charmQuark",570,460);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_topQuark",570,490);characters.push(symbol);

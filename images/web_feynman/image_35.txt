@@ -1,0 +1,31 @@
+user_glyphs.push("\gamma(q)");
+el = new arc_element(100,200,300,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,500,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,400,300);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",70,210);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",520,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",420,300);characters.push(symbol);

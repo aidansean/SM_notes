@@ -1,0 +1,52 @@
+user_glyphs.push("B_\mu");
+user_glyphs.push("\alpha");
+user_glyphs.push("W_\mu^3");
+user_glyphs.push("g_w");
+user_glyphs.push("\alpha_s");
+el = new arc_element(300,200,300,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_circle();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(200,440,300,380);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,380,400,440);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,300,120);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,380,300,300);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronMinus",420,450);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_4",260,330);characters.push(symbol);

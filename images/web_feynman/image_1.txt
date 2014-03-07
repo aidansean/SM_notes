@@ -1,0 +1,94 @@
+user_glyphs.push("n");
+user_glyphs.push("p");
+el = new arc_element(100,300,300,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,300,500,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(100,340,300,340);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,340,500,340);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(100,380,300,380);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,380,500,380);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,140,300,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,100,140);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,200,300,300);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_upQuark",70,340);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_upQuark",520,340);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_upQuark",520,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_downQuark",70,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_downQuark",70,380);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_downQuark",520,380);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_antiNuE",70,140);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronPlus",510,140);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_W",320,260);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",20,340);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",570,340);characters.push(symbol);

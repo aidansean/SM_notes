@@ -1,0 +1,60 @@
+el = new arc_element(100,100,220,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,200,100,300);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(500,300,380,200);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(380,200,500,100);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(220,200,380,200);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(520,200,459.4904458598726,266.2420382165605);
+el.type = "curly";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_electronPlus",70,300);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_electronMinus",70,110);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_GammaZStar",280,180);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_quark",510,100);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_antiQuark",510,310);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_gluon",530,210);characters.push(symbol);

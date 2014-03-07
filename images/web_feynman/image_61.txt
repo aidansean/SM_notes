@@ -1,0 +1,32 @@
+user_glyphs.push("xp");
+user_glyphs.push("p'");
+el = new arc_element(200,300,300,240);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(300,240,400,240);
+el.type = "solid";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = true;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+el = new arc_element(200,160,300,240);
+el.type = "wavy";
+el.arrowhead_position = "center";
+el.arrowhead_style = "solid";
+el.has_arrowhead = false;
+el.make_line();
+el.update_parameters();
+elements.push(el);
+
+symbol = new character_object("canvas_td_latex_quark",280,180);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_0",260,310);characters.push(symbol);
+symbol = new character_object("canvas_td_latex_user_1",390,220);characters.push(symbol);

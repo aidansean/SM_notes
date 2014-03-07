@@ -1,0 +1,72 @@
+\documentclass[A4]{book}
+\usepackage{latexsym}
+\usepackage[all]{xy}
+\usepackage{lastpage}
+\usepackage{graphicx}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf[HLE]{\leftmark}
+\fancyhf[HRO]{\rightmark}
+\fancyhf[HLO,HRE]{}
+\cfoot{\thepage\ of \pageref{LastPage} }
+\renewcommand{\bibname}{References}
+
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+%\usepackage[Sonny]{fncychap}
+\usepackage[Rejne]{fncychap}
+\fancypagestyle{plain}{%
+  \cfoot{\thepage\ of \pageref{LastPage} }
+}
+
+\usepackage{hyperref} % This must be the last package in the list
+
+\author{Aidan Randle-Conde}
+\title{Standard model notes, University of London Postgraduate course 2006-2007}
+
+\input{page_layout}
+\input{custom_commands}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\listoffigures
+%\listoftables
+
+\cleardoublepage
+\input{chapter_1}
+\cleardoublepage
+\input{chapter_2}
+\cleardoublepage
+\input{chapter_3}
+\cleardoublepage
+\input{chapter_4}
+\cleardoublepage
+\input{chapter_5}
+\cleardoublepage
+\input{chapter_6}
+\cleardoublepage
+\input{chapter_7}
+\cleardoublepage
+\input{chapter_8}
+\cleardoublepage
+\input{chapter_9}
+\cleardoublepage
+\input{chapter_10}
+\cleardoublepage
+\input{chapter_11}
+\cleardoublepage
+\input{chapter_12}
+\cleardoublepage
+\input{chapter_13}
+\cleardoublepage
+\input{chapter_14}
+\cleardoublepage
+\input{chapter_15}
+\cleardoublepage
+\input{chapter_16}
+\cleardoublepage
+
+\input{bibliography}
+
+\end{document}
